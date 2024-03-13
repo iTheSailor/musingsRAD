@@ -228,6 +228,7 @@ const SudokuGame = () => {
                 
             </GridColumn>
             </Grid>
+            <br />
             <SudokuBoard current_state={puzzle} paused={!isTimerActive} onBoardChange={handleBoardChange} errors={errors}/>
                 </>
                 }
